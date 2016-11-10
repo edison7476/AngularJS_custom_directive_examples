@@ -1,7 +1,13 @@
 var myApp = angular.module('myApp',[]);
 
 myApp.controller('myController', function ($scope){
-  $scope.h = "hello";
+
+  $scope.condition = 'name';
+
+  $scope.sortBy = function (condition){
+    $scope.condition = condition;
+    console.log($scope.condition );
+  };
 
   $scope.players = [
       {name:"Allen Iverson", img:"iverson.jpeg",careerAvgPts:26.7},
