@@ -11,14 +11,13 @@
       <div class="" ng-controller="myController">
         <div class="">Sort By:
             <label>Average Points</label><input type="radio" name="name" value="" ng-click="sortBy('careerAvgPts')">
-            <label>Name</label><input type="radio" name="name" value="" ng-click="sortBy('name')">
-<!--
-            <label>Points</label><input type="radio" ng-click="sortBy('careerAvgPts')">
-            <label>Name</label><input type="radio" ng-click="sortBy('name')" > -->
+            <label>Name</label><input type="radio" name="name" value="" ng-click="sortBy('name')" checked>
         </div>
-        <div ng-repeat=" p in players | orderBy: condition " class="">
+
+        <div ng-repeat=" p in players | orderBy: condition " class="playerTile">
               <div player-directive player="p"></div>
           </div>
+
       </div>
   </body>
 </html>
