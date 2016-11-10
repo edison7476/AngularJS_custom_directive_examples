@@ -13,3 +13,13 @@ myApp.controller('myController', function ($scope){
       {name:"Dwyane Wade", img:"wade.jpeg", careerAvgPts:23.8}
   ];
 });
+
+myApp.directive('playerDirective', function (){
+  return {
+    restric:'A',
+    scope:{
+      player:"="
+    },
+    templateUrl: "playerDirective.html"
+  };
+});

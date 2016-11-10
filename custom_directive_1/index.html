@@ -9,22 +9,10 @@
   </head>
   <body>
       <div class="" ng-controller="myController">
-          <div ng-repeat="player in players">
-
-            <tr>
-              <td></td>
-              <td>Name</td>
-              <td>career Avg. Pts</td>
-            </tr>
-            <tr>
-          
-              <td></td>
-              <td></td>
-            </tr>
-              <img class="playerImg" src="photos/{{player.img}}" alt="" />
-              <h4 class="name">Name: {{player.name}}</h4>
-              <h4 class="pts">Career Avg. Pts: {{player.careerAvgPts }}</h4>
+        <div ng-repeat="p in players" class="info">
+              <div player-directive player="p"></div>
           </div>
+
       </div>
   </body>
 </html>
