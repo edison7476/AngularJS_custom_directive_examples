@@ -34,3 +34,9 @@ myApp.directive('sortDirective', function (){
     templateUrl:"directiveTemplates/sortDirective.html"
   };
 });
+
+myApp.filter('percentage_symbol', function (){
+  return function (num){
+    return num + '%';
+  };
+});
