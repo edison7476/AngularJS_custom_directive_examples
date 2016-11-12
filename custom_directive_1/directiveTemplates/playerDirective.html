@@ -7,17 +7,32 @@
       <tr>
         <td>Points per Game </td>
         <td>:</td>
-        <td>{{player.careerAvgPts }}</td>
+        <td>{{player.careerAvgPts | number:1 }}</td>
       </tr>
       <tr>
         <td>Rebounds per Game</td>
         <td>:</td>
-        <td>{{ player.rb}}</td>
+        <td>{{ player.rb | number:1}}</td>
       </tr>
       <tr>
         <td>Assits per Game</td>
         <td>:</td>
-        <td>{{player.ast}}</td>
+        <td>{{player.ast | number:1}}</td>
+      </tr>
+      <tr>
+        <td>Field Goal %</td>
+        <td>:</td>
+        <td>{{player.FG | number:1}}</td>
+      </tr>
+      <tr>
+        <td>3 Point Shooting %</td>
+        <td>:</td>
+        <td>{{player.FG3 | number:1}}</td>
+      </tr>
+      <tr>
+        <td>Free Throw %</td>
+        <td>:</td>
+        <td>{{player.FT | number:1}}</td>
       </tr>
     </table>
 </div>

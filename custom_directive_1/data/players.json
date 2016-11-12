@@ -1,13 +1,15 @@
 [
-    {"name":"Allen Iverson", "img":"iverson.jpeg","careerAvgPts":26.7,"rb":3.7,"ast":6.2},
-    {"name":"Kyrie Irving", "img":"irving.jpeg", "careerAvgPts":20.8,"rb":3.4,"ast":5.5 },
-    {"name":"Stephen Curry", "img":"curry.jpeg", "careerAvgPts":22.5,"rb":4.3,"ast":6.8 },
-    {"name":"Kobe Bryat", "img":"kobe.jpeg", "careerAvgPts":25.0,"rb":5.2,"ast":4.7},
-    {"name":"Lebron James", "img":"lebron.jpeg", "careerAvgPts":27.2,"rb":7.2,"ast":6.9},
-    {"name":"Chris Paul", "img":"paul.jpeg", "careerAvgPts":18.8,"rb":4.4,"ast":9.9},
-    {"name":"Dwyane Wade", "img":"wade.jpeg", "careerAvgPts":23.8,"rb":4.8,"ast":5.8},
-    {"name":"Kevin Durant", "img":"durant.jpeg", "careerAvgPts":27.4,"rb":7.1,"ast":3.7},
-    {"name":"Carmelo Anthony", "img":"melo.jpeg", "careerAvgPts":24.9,"rb":6.6,"ast":3.1},
-    {"name":"Russell Westbrook", "img":"Westbrook.jpeg", "careerAvgPts":21.6,"rb":5.6,"ast":7.6},
-    {"name":"Kevin Garnett", "img":"kg.jpeg", "careerAvgPts":17.8,"rb":10.0,"ast":3.7}
+    {"name":"Allen Iverson", "img":"iverson.jpeg","careerAvgPts":26.7,"rb":3.7,"ast":6.2, "FG":42.5,"FG3":31.3,"FT":78.0},
+    {"name":"Kyrie Irving", "img":"irving.jpeg", "careerAvgPts":20.8,"rb":3.4,"ast":5.5, "FG":45.2,"FG3":37.9,"FT":86.5 },
+    {"name":"Stephen Curry", "img":"curry.jpeg", "careerAvgPts":22.5,"rb":4.3,"ast":6.8, "FG":47.8,"FG3":44.4,"FT": 90.1},
+    {"name":"Kobe Bryat", "img":"kobe.jpeg", "careerAvgPts":25.0,"rb":5.2,"ast":4.7, "FG":44.7,"FG3":32.9,"FT":83.7},
+    {"name":"Lebron James", "img":"lebron.jpeg", "careerAvgPts":27.2,"rb":7.2,"ast":6.9, "FG":49.8,"FG3":34.0,"FT":74.4},
+    {"name":"Chris Paul", "img":"paul.jpeg", "careerAvgPts":18.8,"rb":4.4,"ast":9.9, "FG":47.3,"FG3":36.6,"FT":86.5},
+    {"name":"Dwyane Wade", "img":"wade.jpeg", "careerAvgPts":23.8,"rb":4.8,"ast":5.8, "FG":48.7,"FG3":28.7,"FT":76.8},
+    {"name":"Kevin Durant", "img":"durant.jpeg", "careerAvgPts":27.4,"rb":7.1,"ast":3.7, "FG":48.5,"FG3":38,"FT":88.2},
+    {"name":"Carmelo Anthony", "img":"melo.jpeg", "careerAvgPts":24.9,"rb":6.6,"ast":3.1, "FG":45.3,"FG3":34.3,"FT":81.2},
+    {"name":"Russell Westbrook", "img":"Westbrook.jpeg", "careerAvgPts":21.6,"rb":5.6,"ast":7.6, "FG":43.4,"FG3":30.4,"FT":81.7},
+    {"name":"Kevin Garnett", "img":"kg.jpeg", "careerAvgPts":17.8,"rb":10.0,"ast":3.7, "FG":49.7,"FG3":27.5,"FT":78.9},
+    {"name":"Dirk Nowitzki", "img":"dirk.jpeg", "careerAvgPts":22,"rb":7.9,"ast":2.5,"FG":47.4,"FG3":38.1,"FT":87.9},
+    {"name":"Blake Griffin", "img":"griffin.jpg", "careerAvgPts":21.4,"rb":9.6,"ast":4.0, "FG":52,"FG3":26.3,"FT":66.2}
 ]
