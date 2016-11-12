@@ -12,6 +12,11 @@
    transition: width 0.7s, height 0.7s;
 }
 
+.thumbnail{
+  margin-left: 12px;
+  padding-left:12px;
+}
+
 .playerImg:hover{
   width:  250px;
   height: 250px;
