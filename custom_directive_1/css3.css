@@ -4,17 +4,17 @@
 }
 
 
-.playerImg{
-  height: 220px;
-  width: 220px;
+.thumbnail Img{
+  height: 200px;
+  width: 200px;
   margin-right: 20px;
   -webkit-transition: width 2s, height 2s; /* For Safari 3.1 to 6.0 */
-   transition: width 2s, height 2s;
+   transition: width 0.7s, height 0.7s;
 }
 
 .playerImg:hover{
-  width:  130%;
-  height: 130%;
+  width:  250px;
+  height: 250px;
 }
 
 .container input{

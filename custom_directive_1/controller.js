@@ -1,4 +1,4 @@
-var myApp = angular.module('myApp',[]);
+var myApp = angular.module('myApp',['ngAnimate']);
 
 myApp.controller('myController', function ($scope, $http){
 
@@ -24,6 +24,13 @@ myApp.directive('playerDirective', function (){
       player:"="
     },
     replace:true,
-    templateUrl: "playerDirective.html"
+    templateUrl: "directiveTemplates/playerDirective.html"
+  };
+});
+
+myApp.directive('sortDirective', function (){
+  return {
+    restric: 'E',
+    templateUrl:"directiveTemplates/sortDirective.html"
   };
 });

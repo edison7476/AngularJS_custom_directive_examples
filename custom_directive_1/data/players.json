@@ -8,5 +8,6 @@
     {"name":"Dwyane Wade", "img":"wade.jpeg", "careerAvgPts":23.8,"rb":4.8,"ast":5.8},
     {"name":"Kevin Durant", "img":"durant.jpeg", "careerAvgPts":27.4,"rb":7.1,"ast":3.7},
     {"name":"Carmelo Anthony", "img":"melo.jpeg", "careerAvgPts":24.9,"rb":6.6,"ast":3.1},
-    {"name":"Russell Westbrook", "img":"Westbrook.jpeg", "careerAvgPts":21.6,"rb":5.6,"ast":7.6}
+    {"name":"Russell Westbrook", "img":"Westbrook.jpeg", "careerAvgPts":21.6,"rb":5.6,"ast":7.6},
+    {"name":"Kevin Garnett", "img":"kg.jpeg", "careerAvgPts":17.8,"rb":10.0,"ast":3.7}
 ]
