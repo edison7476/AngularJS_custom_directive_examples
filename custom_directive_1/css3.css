@@ -25,3 +25,12 @@
 .container input{
   margin-left: 10px;
 }
+
+#main.ng-enter {
+  transition: 0.2s linear all;
+  opacity: 0;
+}
+
+#main.ng-enter.ng-enter-active {
+  opacity: 1;
+}
