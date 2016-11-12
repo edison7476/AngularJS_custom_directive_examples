@@ -3,12 +3,16 @@
   vertical-align: top;
 }
 
-.playerTile{
-  display: inline-block;
-  margin: 20px 20px ;
-}
 
 .playerImg{
-  height: 200px;
-  width: 200px;
+  height: 220px;
+  width: 220px;
+  margin-right: 20px;
+  -webkit-transition: width 2s, height 2s; /* For Safari 3.1 to 6.0 */
+   transition: width 2s, height 2s;
+}
+
+.playerImg:hover{
+  width:  130%;
+  height: 130%;
 }

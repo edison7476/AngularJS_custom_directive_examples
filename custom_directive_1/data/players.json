@@ -1,0 +1,12 @@
+[
+    {"name":"Allen Iverson", "img":"iverson.jpeg","careerAvgPts":26.7,"rb":3.7,"ast":6.2},
+    {"name":"Kyrie Irving", "img":"irving.jpeg", "careerAvgPts":20.8,"rb":3.4,"ast":5.5 },
+    {"name":"Stephen Curry", "img":"curry.jpeg", "careerAvgPts":22.5,"rb":4.3,"ast":6.8 },
+    {"name":"Kobe Bryat", "img":"kobe.jpeg", "careerAvgPts":25.0,"rb":5.2,"ast":4.7},
+    {"name":"Lebron James", "img":"lebron.jpeg", "careerAvgPts":27.2,"rb":7.2,"ast":6.9},
+    {"name":"Chris Paul", "img":"paul.jpeg", "careerAvgPts":18.8,"rb":4.4,"ast":9.9},
+    {"name":"Dwyane Wade", "img":"wade.jpeg", "careerAvgPts":23.8,"rb":4.8,"ast":5.8},
+    {"name":"Kevin Durant", "img":"durant.jpeg", "careerAvgPts":27.4,"rb":7.1,"ast":3.7},
+    {"name":"Carmelo Anthony", "img":"melo.jpeg", "careerAvgPts":24.9,"rb":6.6,"ast":3.1},
+    {"name":"Russell Westbrook", "img":"Westbrook.jpeg", "careerAvgPts":21.6,"rb":5.6,"ast":7.6}
+]
