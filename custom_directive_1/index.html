@@ -14,14 +14,22 @@
 <body>
     <div class="container" ng-controller="myController">
         <div class="container">Sort By:
-            <label>Average Points</label>
-            <input type="radio" name="name" value="" ng-click="sortBy('careerAvgPts')">
-            <label>Name</label>
-            <input type="radio" name="name" value="" ng-click="sortBy('name')" checked>
+          <input class="sortRadio" type="radio" name="name" value="" ng-click="sortBy('name')" checked>
+          <label>Name</label>
+
+          <input class="sortRadio" type="radio" name="name" value="" ng-click="sortBy('careerAvgPts')">
+          <label>Average Points</label>
+
+          <input class="sortRadio" type="radio" name="name" value="" ng-click="sortBy('rb')">
+          <label>Average Rebounds</label>
+
+          <input class="sortRadio" type="radio" name="name" value="" ng-click="sortBy('ast')">
+          <label>Average Assists</label>
+
         </div>
 
       <div class="row">
-        <div ng-repeat=" p in players | orderBy: condition " class="row" style="display:inline-block">
+        <div ng-repeat=" p in players | orderBy: condition: reverse " class="row" style="display:inline-block">
             <div player-directive player="p"></div>
         </div>
       </div>

@@ -16,3 +16,7 @@
   width:  130%;
   height: 130%;
 }
+
+.container input{
+  margin-left: 10px;
+}

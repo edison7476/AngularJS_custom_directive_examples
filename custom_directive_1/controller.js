@@ -3,9 +3,11 @@ var myApp = angular.module('myApp',[]);
 myApp.controller('myController', function ($scope, $http){
 
   $scope.condition = 'name';
+  $scope.reverse = false;
 
   $scope.sortBy = function (condition){
     $scope.condition = condition;
+    condition != 'name' ? $scope.reverse = true : $scope.reverse = false;
     // console.log($scope.condition );
   };
 
