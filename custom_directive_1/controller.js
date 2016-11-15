@@ -17,23 +17,6 @@ myApp.controller('myController', function ($scope, $http){
 
 });
 
-myApp.directive('playerDirective', function (){
-  return {
-    restric:'AE',
-    scope:{
-      player:"="
-    },
-    replace:true,
-    templateUrl: "directiveTemplates/playerDirective.html"
-  };
-});
-
-myApp.directive('sortDirective', function (){
-  return {
-    restric: 'E',
-    templateUrl:"directiveTemplates/sortDirective.html"
-  };
-});
 
 myApp.filter('percentage_symbol', function (){
   return function (num){
