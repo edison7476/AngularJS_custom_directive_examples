@@ -17,15 +17,15 @@
 <body>
     <div class="container" ng-controller="myController">
 
-         <div sort-directive></div> <!-- html file: directiveTemplates/sortDirective.html -->
+        <div sort-directive></div>
+        <!-- html file: directiveTemplates/sortDirective.html -->
 
-        <div class="row" >
+        <div class="row">
             <div ng-repeat=" player in players | orderBy: condition: reverse " class="row" style="display:inline-block">
-                <div player-directive player="player"></div><!-- html file: directiveTemplates/playerDirective.html -->
+                <div player-directive player="player"></div>
+                <!-- html file: directiveTemplates/playerDirective.html -->
             </div>
         </div>
-
     </div>
 </body>
-
 </html>
