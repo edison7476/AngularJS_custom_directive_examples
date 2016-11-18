@@ -8,6 +8,7 @@
     <script src="shareScopeDirective.js"></script>
     <script src="isolateScopeDirective.js"></script>
     <script src="isolateScopeWithStringDirective.js"></script>
+    <script src ="isolateScpoeTwoWayBinding.js" ></script>
   </head>
   <body>
     <div class="" ng-controller="myController">
@@ -19,7 +20,10 @@
 
         <h1>Isolate Scope with one way data binding '@':</h1>
         <div class="" isolate-scope-with-string-directive name="{{ player.name }}" ppt="{{ player.ppt }}"></div>
-        <!--  passing data from $scope.player in controller.js to attrs name and ppt-->
+        <!--  passing data from $scope.player in controller.js to the attributes of name and ppt-->
+
+        <h1>Isolate Scope with two way data binding '=': </h1>
+        <div class="" isolate-scpoe-two-way-binding datasource="player"></div>
     </div>
   </body>
 </html>

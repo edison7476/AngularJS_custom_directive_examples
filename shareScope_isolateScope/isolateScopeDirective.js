@@ -4,7 +4,7 @@
   app.directive('isolateScope',function(){
     return {
       scope: { },
-      template: '<p> Name: {{ player.name }} </p> <p>Carrer Average PPT: {{ player.ppt }} </p>'
+      template: '<p> Name: {{ player.name }} </p> <p>Carrer Average PPG: {{ player.ppt }} </p>'
     };
   });
 }());

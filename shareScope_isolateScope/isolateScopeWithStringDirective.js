@@ -10,7 +10,7 @@
         ppt: '@'
       },
       // setup a template to display scope in html page
-      template: '<p> Name: {{ name }} </p> <p>Carrer Average PPT: {{ ppt }} </p>'
+      template: '<p> Name: {{ name }} </p> <p>Carrer Average PPG: {{ ppt }} </p>'
     };
   });
 }());
