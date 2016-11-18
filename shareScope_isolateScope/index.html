@@ -7,13 +7,19 @@
     <script src="controller.js"></script>
     <script src="shareScopeDirective.js"></script>
     <script src="isolateScopeDirective.js"></script>
+    <script src="isolateScopeWithStringDirective.js"></script>
   </head>
   <body>
     <div class="" ng-controller="myController">
         <h1>Share Scope:</h1>
         <div class="" share-scope ></div>
+
         <h1>Isolate Scope:</h1>
         <div class="" isolate-scope ></div>
+
+        <h1>Isolate Scope with '@':</h1>
+        <div class="" isolate-scope-with-string-directive name="{{ player.name }}" ppt="{{ player.ppt }}"></div>
+        <!--  passing data from $scope.player in controller.js to attrs name and ppt-->
     </div>
   </body>
 </html>
