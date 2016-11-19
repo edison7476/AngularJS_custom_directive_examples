@@ -5,4 +5,11 @@ app.controller('myController', function($scope){
     'name': 'Allen Iverson',
     'ppt': 26.7
   };
+
+  $scope.changePlayer = function (){
+    $scope.player = {
+      'name': 'Stephen Curry',
+      'ppt': 22.5
+    };
+  };
 });
