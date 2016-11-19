@@ -6,9 +6,9 @@
         link: function (scope, elem, attrs){
           // example of using jqLite to manipulate the DOM
           elem.on('click', function (){
-            elem.html('You Clicked me');
+            elem.html('You Clicked Me!');
           });
-          elem.on('mouse', function (){
+          elem.on('mouseenter', function (){
             elem.css('background-color', 'yellow');
           });
           elem.on('mouseleave', function (){
