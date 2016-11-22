@@ -7,6 +7,7 @@
     <script src="lib/angular.min.js"></script>
     <script src="controller.js"></script>
     <script src="linkFunction.js"></script>
+    <script src="tableHelper.js"></script>
 
     <style media="screen">
         .box {
@@ -17,6 +18,7 @@
         .description{
           color: blue;
         }
+      
     </style>
 </head>
 
@@ -26,7 +28,7 @@
         <p>Try to move the mouse cursor onto the Click Me and see what happens</p>
         <div link-function-demo>Click Me</div>
 
-        {{ players }}
+        <table-helper datascource="players"></table-helper>
     </div>
 </body>
 

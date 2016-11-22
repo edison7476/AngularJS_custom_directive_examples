@@ -2,7 +2,7 @@
 
   var tableHelper = function (){
 
-    var tamplate = '<div class="talbeHelper"></div>';
+    var template = '< div class="talbeHelper"></div>';
 
     var link = function (scope, element, attrs){
       var headerCols = [],
@@ -12,11 +12,55 @@
           visibleProps = [],
           sortCol = null,
           SortDir = 1;
-      // use $watchCollection to watch if the datascource is changed
-      scope.$watchCollection('datascource', render);
-      wireEvent();
 
-    };
+      // Use $watchCollection to check datascource
+      // if datascource is changed, then we call render function to render page
+      scope.$watchCollection('datascource', render);
+      // wireEvent();
+
+
+      function render (){
+        // check if we have any data binds in scope.datascource
+        // Then creating the basic frame of HTML talbe
+        if(scope.datascource && scope.datascource.length){
+          table += tableStar;
+          table += renderHeader();
+          table += renderRow() + tableEnd;
+          renderTable();
+        }
+      }
+
+      function renderHeader(){
+          var tr = '<table><tr>';
+          for (var key in scope.datascource[0]){
+            // Pluging values into the table head columns from datascource
+            tr += '<th>' + key + '</th>';
+          }
+          tr += '</tr></table>';
+          return tr;
+      }
+
+      function renderRow(){
+          var rows = '';
+          for (var i = 0; i<scope.datascource.length; i++){
+            rows += '<tr>';
+            var rowComponent = scope.datascource[i];
+            for(var key in rowComponent){
+              rows += '<td>' + rowComponent[key] +'</td>';
+            }
+            rows += '</tr>';
+          }
+
+          return rows;
+      }
+
+      function renderTable(){
+        element.html(table);
+        table = '';
+      }
+
+    };// End of link (link function allows us to manipulate the DOM using javascript or jqLite)
+
 
     return {
       restrcit:'E',
@@ -25,9 +69,10 @@
         datascource:'='
       },
       link:link,
-      tamplate: template
+      template: template
     };
-  };
+  };// End of tableHelper function
+
   angular.module('app')
     .directive('tableHelper', tableHelper);
 

@@ -34,4 +34,8 @@ app.controller('myController', function($scope, $http){
       {"Name":"Blake Griffin", "img":"griffin.jpg", "Points_per_Game":21.4,"Rebounds_per_Game":9.6,"Assits_per_Game":4.0, "Field_Goal":52,"Field_Goal_3PT":26.3,"Free_Throw":66.2}
   ];
 
+  for(var prop in $scope.players[0]){
+    console.log('key = ', prop, 'val = ', $scope.players[0][prop]);
+  }
+
 });
