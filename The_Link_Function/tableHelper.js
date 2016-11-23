@@ -25,18 +25,19 @@
         if(scope.datascource && scope.datascource.length){
           table += tableStar;
           table += renderHeader();
-          table += renderRow() + tableEnd;
+          table += renderRow();
+          table += tableEnd;
           renderTable();
         }
       }
 
       function renderHeader(){
-          var tr = '<table><tr>';
+          var tr = '<tr>';
           for (var key in scope.datascource[0]){
             // Pluging values into the table head columns from datascource
             tr += '<th>' + key + '</th>';
           }
-          tr += '</tr></table>';
+          tr += '</tr>';
           return tr;
       }
 
